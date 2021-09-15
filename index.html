@@ -5,14 +5,11 @@
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Foods of the union</title> 
-        <link rel="stylesheet" href="./css/styles.css"> 
+        <link rel="stylesheet" href="./css/style.css"> 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
     </head>
 
     <body>
-
-        <!-- ==== NAV BAR (BOOTSTRAP) ===== -->
-        <!-- use the "fixed-top" bootstrap class to fix the nav bar to the top of page.  BUT, remember to add enough padding to the top of the <body> -->
             <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">
@@ -45,11 +42,21 @@
         </nav>
 
         <main>
-
+            <h1>Click on the map to get recipes from each country!</h1>
+            <div class='container'>
+                <img  src="./images/map.jpg" alt="map of uk" usemap="#mapMap">
+                    <map name="mapMap">
+                        <area shape="poly" coords="250,10,100,70,40,140,30,210,70,290,140,370,220,340,260,280,240,260,280,150" alt="Scotland" href="scotland.html">
+                        <area shape="poly" coords="100,320,60,320,4,380,30,400,100,410,120,370" alt="Northern Ireland" href="nireland.html">
+                        <area shape="poly" coords="220,340,260,280,340,360,440,450,430,660,100,710,630,110,220,620,250,590,230,520,240,490,220,460,150,390" alt="England" href="england.html">
+                        <area shape="poly" coords="220,460,240,490,230,520,250,590,210,610,160,600,120,560,150,550" alt="Wales" href="wales.html">
+                    </map>
+            </div>
+      
         </main>
 
         <footer>
-            
+
         </footer> 
         
        

@@ -1,0 +1,16 @@
+.container {
+    padding-top: 100px;
+    margin: 10px;
+    height: 100%;
+    line-height: 115px;
+    text-align: center;
+}
+.resize_fit_center {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+}
+
+h1 {
+    text-decoration-color: black;
+}
