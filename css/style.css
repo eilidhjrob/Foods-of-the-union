@@ -14,3 +14,21 @@
 h1 {
     text-decoration-color: black;
 }
+
+main{
+    padding-top: 80px;
+}
+
+td{
+    border: 1.5px solid #ddd;
+    border-radius: 50%;
+}
+
+th{
+    border: 1.5px solid #ddd;
+    border-radius: 50%;
+}
+
+.floatRight{
+    float:right;margin-right:600px
+}
