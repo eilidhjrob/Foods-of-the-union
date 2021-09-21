@@ -1,5 +1,5 @@
 .container {
-    height: calc(100vh - 56px);
+    height: 100%;
     object-fit: cover;  
     padding-top: 56px;
     margin: 10px;
