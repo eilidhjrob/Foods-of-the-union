@@ -1,7 +1,8 @@
 .container {
-    padding-top: 100px;
+    height: calc(100vh - 56px);
+    object-fit: cover;  
+    padding-top: 56px;
     margin: 10px;
-    height: 100%;
     line-height: 115px;
     text-align: center;
 }
@@ -34,5 +35,5 @@ th{
 }
 
 .instructions{
-    scroll-padding-top: 100px;
+    padding-top: 100px;
 }
